@@ -97,3 +97,40 @@ a {
 .price {
     text-decoration: line-through;
 }
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.one {
+    margin-right: 10px;
+}
+
+.two {
+    margin-right: 10px;
+}
+
+.title-social {
+    margin-bottom: 10px;
+}
+
+.tw{
+    margin-right: 5px;
+}
+.fb{
+    margin-right: 5px;
+}
+.in{
+    margin-right: 5px;
+}
+.pin{
+    margin-right: 5px;
+}
