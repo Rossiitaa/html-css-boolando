@@ -27,6 +27,11 @@ header {
 
 .logo img{
     width: 130px;
+    margin-top: 5px;
+}
+
+.icon {
+    margin-top: 10px;
 }
 
 ul {
@@ -51,11 +56,19 @@ a {
     width: 100%;
 }
 
-.img:hover {
+
+.models:hover .favorite {
+    color: red;
+}
+.second-photo {
     position: absolute;
     top: 0;
     left: 0;
 }
+.models:hover .second-photo {
+    z-index: -1;
+}
+
 
 .favorite {
     background-color: white;
@@ -66,11 +79,6 @@ a {
     right: 0px;
 }
 
-.img-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 .sales {
     display: inline-block;
