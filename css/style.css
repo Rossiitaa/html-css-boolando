@@ -71,3 +71,29 @@ a {
     top: 0;
     left: 0;
 }
+
+.sales {
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+}
+
+.back-sales {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.back-sustainability {
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+.discount-price {
+    color: red
+}
+
+.price {
+    text-decoration: line-through;
+}
