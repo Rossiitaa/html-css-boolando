@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6900;
+    padding: 15px;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex1 {
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 130px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/* main */
+
