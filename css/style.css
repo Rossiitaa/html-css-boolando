@@ -7,6 +7,7 @@
 header {
     background-color: #ff6900;
     padding: 15px;
+    margin-bottom: 40px;
 
 }
 
@@ -16,6 +17,7 @@ header {
 
 .flex1 {
     justify-content: space-between;
+    align-content: center;
 }
 
 .container {
@@ -39,3 +41,33 @@ a {
 
 /* main */
 
+.models {
+    position: relative;
+    margin: 10px;
+    width: calc(100% / 3);
+}
+
+.models img {
+    width: 100%;
+}
+
+.img:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.favorite {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 999;
+    top: 5px;
+    right: 0px;
+}
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
